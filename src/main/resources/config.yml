@@ -1,0 +1,6 @@
+# If true, immortal players are also protected from /kill.
+block-kill-command: false
+
+# If true, immortal players are also saved from falling into the void.
+# (They'd be left at half a heart but still falling, so this is usually pointless.)
+block-void: false

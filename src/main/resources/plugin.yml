@@ -1,0 +1,19 @@
+name: Immortal
+version: 1.0.0
+main: dev.immortal.ImmortalPlugin
+api-version: '26.3'
+description: Keeps you at half a heart instead of dying when you have no totem.
+
+commands:
+  immortal:
+    description: Toggle immortality for yourself or another player.
+    usage: /immortal [player]
+    permission: immortal.use
+
+permissions:
+  immortal.use:
+    description: Toggle immortality on yourself.
+    default: op
+  immortal.others:
+    description: Toggle immortality on other players.
+    default: op
